@@ -27,7 +27,7 @@ Original single-file prototype evolved into a maintainable, testable package:
 
 ## 3. Project Structure
 ```
-new_project/
+project/
   requirements.txt
   README.md
   sports_hub/
