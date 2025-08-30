@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Football",
+    "matches_played": 1
+  },
+  {
+    "id": 2,
+    "name": "Basketball",
+    "matches_played": 1
+  },
+  {
+    "id": 3,
+    "name": "Tennis",
+    "matches_played": 0
+  }
+]

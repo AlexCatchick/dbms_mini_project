@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Red Warriors",
+    "category": "Football"
+  },
+  {
+    "id": 2,
+    "name": "Blue Knights",
+    "category": "Football"
+  },
+  {
+    "id": 3,
+    "name": "Golden Eagles",
+    "category": "Basketball"
+  },
+  {
+    "id": 4,
+    "name": "Silver Foxes",
+    "category": "Basketball"
+  }
+]

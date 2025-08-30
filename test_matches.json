@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "category": "Basketball",
+    "match_date": "2025-08-30",
+    "location": "Arena B",
+    "teams_summary": "Silver Foxes(3) DRAW vs Golden Eagles(3) DRAW"
+  },
+  {
+    "id": 1,
+    "category": "Football",
+    "match_date": "2025-08-30",
+    "location": "Stadium A",
+    "teams_summary": "Red Warriors(2) WIN vs Blue Knights(1) LOSS"
+  }
+]
