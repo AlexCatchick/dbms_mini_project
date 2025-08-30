@@ -137,33 +137,13 @@ Exit code != 0 indicates failure (CI friendly).
 * `export.py` normalizes row tuples to dicts when headers supplied; handles dates & decimals.
 * CLI adds path bootstrap for direct execution.
 
-## 10. Security & Config
-Credentials are plain-text for local dev only. For production consider:
-* Environment variables (`os.getenv`) or `.env` loader
-* Least-privilege DB user
 
-## 11. Extensibility Roadmap
-| Area | Enhancement Ideas |
-|------|-------------------|
-| Logging | Add `logging` module with rotating file handler |
-| Error Handling | Wrap DB ops in context managers & retries where sensible |
-| Transactions | Group multi-statement operations (match + updates) in explicit transactions |
-| Packaging | Add `pyproject.toml` for installation as editable package |
-| Seeding | Implement `seed_data.py` with sample fixtures |
-| Stats | Aggregated team/player performance queries |
-| CLI UX | Input validation & colored output |
-| Migrations | Separate SQL migration scripts (e.g., Alembic) |
-| Testing | Split unit vs integration; mock DB for unit logic |
-
-## 12. Troubleshooting
+## 10. Troubleshooting
 | Issue | Cause | Fix |
 |-------|-------|-----|
 | `ModuleNotFoundError: sports_hub` | Ran CLI from inside package | Run from parent or use `python -m sports_hub.cli` |
 | DDL errors (old triggers) | Old schema file cached | Pull latest `schema.py`, drop DB, re-run tests |
 | Empty JSON export | Missing headers earlier | Headers now mandatory in CLI; provide when calling programmatically |
-
-## 13. License / Usage
-Educational example. Adapt freely (add appropriate license text if distributing).
 
 ---
 **Summary:** Sports Hub CLI delivers a modular, test-backed sports management system with reliable DB setup and flexible exports—clean foundation for future extensions.
